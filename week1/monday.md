@@ -26,5 +26,7 @@
   - Skeleton css framework. foundation, bootstrap, 960.gs 
 
 ## Media Queries
-  - <meta name="viewport" content="width-device-width, initual-scale=1">
-  - 
+  - <meta name="viewport" content="width=device-width, initial-scale=1">
+  - make sure to put media queries in the correct order so they don't override each other. 
+  - min-width is mobile-first, max-width is desktop first.
+  - with well structured layout that considers responsiveness, you shouldnt have to write media queries for every possible size, the layout should take care of it for you.
