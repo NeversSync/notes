@@ -1,2 +1,2 @@
-# Monday Lecture Notes
+# Wednesday Lecture Notes
 - 
