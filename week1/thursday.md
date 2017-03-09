@@ -17,3 +17,13 @@
 #add this to portfolio tab nav handler
  - $('.main-nav .tab:first').click();
  - add event into tab content handler function call
+
+ ## Templates
+- abstraction to clean up and shrink our HTML 
+- template containes familiar information (tags) combined with placeholder values {{expressions}}
+- Handlebars.js
+- put script tage in head that has ID and type attributes.
+- adding it introduces an object called Handlebars into the global scope.
+- every property in the context can be used in the HMTL
+- use extra set of braces to register data as html if there is html in the source data.
+- you can't do calculation in handlebars, do it in the script file and then pass it into a variable to use in template.
