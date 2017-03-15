@@ -18,4 +18,4 @@
 - at this point run node server.js and it should run the server and wait for a request in the terminal. server built!
 - if you make changes on the server side, you have to restart your server to have those changes register.
 - you can't get to any files that aren't served up- ".static" method on app allows whole directory to be accessed by browser. 
-- app.use introduces something called Middleware - functions that the request and reponse objects get passed through.  
+- app.use introduces something called Middleware - functions that the request and reponse objects get passed through. 
