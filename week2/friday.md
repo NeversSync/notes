@@ -72,3 +72,4 @@
     - To write testable functions, take our unpredictable or random generation parts of the function. 
     - Mocking
       - Sometimes, in order to verify certain behaviors, we have to "mock" out arguments/functions to make something work just for the test. 
+  - we're not testing whether javascript is working, we're testing if our code is working
