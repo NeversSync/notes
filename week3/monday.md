@@ -40,4 +40,3 @@
     -takes two arguments, path, and function. call page() at the bottom of the routing section of code, this initializes page functionality. 
   - under the hood, page is updating url without actually causing navigation.
   - There is a difference now between the navigation within the page, and the requests being made by the browser. 
-  - 
