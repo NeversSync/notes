@@ -5,7 +5,7 @@
 
 ## Middleware 
 - Global State: what is going on in the application, current values of globals, count, ect.
-- context object is what is passed in to page() function by default. Convention is to name is "ctx". You can use context to send information across different parts of an app regarding state. context is an object that represents information about the state we are transitioning from. 
+- Context object is what is passed in to page() function by default. Convention is to name is "ctx". You can use context to send information across different parts of an app regarding state. context is an object that represents information about the state we are transitioning from. 
 - Params - an object that is a property on context object. 
   page(/one/:something) - must be matched in achor tag href (href="/one/42"). Once achor is clicked, params will have property "something:42".
   - on params objects gets stored the infromation in the url/path we set.
